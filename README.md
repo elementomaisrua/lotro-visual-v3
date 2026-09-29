@@ -58,6 +58,6 @@ Os testes de movimento alteram somente objetos do próprio processo de teste e c
 
 ## Código
 
-Os fontes e scripts atuais ficam em `outputs/visual-interno-lotro-v3`, preservando a pasta permanente da v3. O repositório publica somente os fontes, documentação e testes selecionados. Caches, dumps de memória, relatórios de sessões, preferências, ferramentas baixadas, binários e versões antigas ficam ignorados.
+Os fontes e scripts atuais ficam em `outputs/visual-interno-lotro-v3`, preservando a pasta permanente da v3. Essa pasta também inclui os binários prontos `Painel-LOTRO.exe` e `visual-lotro-x64.dll`, com `payload-manifest.json` para conferir o hash da DLL. Caches, dumps de memória, relatórios de sessões, preferências, ferramentas baixadas e versões antigas ficam ignorados.
 
 O formato do arquivo DAT foi conferido com a [documentação de lotro_mesh_viewer](https://github.com/Mirarkitty/lotro_mesh_viewer/blob/main/datfile.py). A classificação usa `WeenieType` (`0x126`), as enumerações `0x230000c9`/`0x230001ab` e `Entity_IsPlayer` (`0x47d`) dos dados do cliente. Nenhum arquivo do jogo é distribuído neste repositório.

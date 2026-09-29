@@ -1,0 +1,5 @@
+{
+  "dll": "visual-lotro-x64.dll",
+  "sha256": "d630601124bf91b230d0e8a0e5122e30565e3e2e416b65978c02a86a1725b547",
+  "profile": "native-x64-kernel32-no-tls-no-crt"
+}
