@@ -1,0 +1,27 @@
+# Public source allowlist. Everything else stays local.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/outputs/
+/outputs/*
+!/outputs/visual-interno-lotro-v3/
+/outputs/visual-interno-lotro-v3/*
+!/outputs/visual-interno-lotro-v3/CarregadorNativo.cs
+!/outputs/visual-interno-lotro-v3/MenuGame.cs
+!/outputs/visual-interno-lotro-v3/Painel.cs
+!/outputs/visual-interno-lotro-v3/visual_lotro.cpp
+!/outputs/visual-interno-lotro-v3/nomes_lotro.h
+!/outputs/visual-interno-lotro-v3/tipos_lotro.h
+!/outputs/visual-interno-lotro-v3/velocidade_lotro.h
+!/outputs/visual-interno-lotro-v3/compilar.ps1
+!/outputs/visual-interno-lotro-v3/compilar-painel.ps1
+!/outputs/visual-interno-lotro-v3/carregar.ps1
+!/outputs/visual-interno-lotro-v3/parar.ps1
+!/outputs/visual-interno-lotro-v3/velocidade.ps1
+!/outputs/visual-interno-lotro-v3/painel.manifest
+!/tests/
+/tests/*
+!/tests/run.ps1
+!/tests/test_auto_metadata.cpp
+!/tests/test_speed_control.cpp
